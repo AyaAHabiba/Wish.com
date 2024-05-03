@@ -5,4 +5,4 @@
 **We made some data analysis on the dataset (it detailed in the comments of the project with some draws to be able to analyze) , we just clean the data and analyze it to be able to applied to the moedl and get accurate results as our metric is F1score .
 We applied { Naive Bayes , Decision Tree, SVM } models with different hyperparameters to get the best one.** 
 
-### Here is the link of the commpetition with more details (https://www.kaggle.com/competitions/cisc-873-dm-w23-a1).
+### Here is the link of the commpetition with more details [Link](https://www.kaggle.com/competitions/cisc-873-dm-w23-a1).
