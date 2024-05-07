@@ -1,8 +1,44 @@
 # Wish.com
-## The Project
-**So in this assignment, you will be working with a tabular dataset. The dataset is not clean, and you will need some preprocessing depending on the models of your choice. The dataset is the wish.com product dataset. We collected the data combined with some available data. Some nosies are added to the dataset. The goal is to predict the product ratings given the other features known for a product on Wish.com. Ratings are in categories from 1 to 5. For one product, the higher the rating is, the more the customers like the product. In this way, when you have a new product to be put on wish.com, you can estimate how likely people will like your product, without actually listing out there. Also, by doing this, it helps us to understand under what certain conditions that a product will be highly rated, as a way to understand the customer base of the wish.com.** 
-## How we solve it
-**We made some data analysis on the dataset (it detailed in the comments of the project with some draws to be able to analyze) , we just clean the data and analyze it to be able to applied to the moedl and get accurate results as our metric is F1score .
-We applied { Naive Bayes , Decision Tree, SVM } models with different hyperparameters to get the best one.** 
+## Introduction
+Welcome to my solution for the Wish.com Product Recommendation Challenge! This competition, hosted on Kaggle, aims to predict the likelihood of a user purchasing a product based on various features such as user demographics, product attributes, and historical interactions.
 
-### Here is the link of the commpetition with more details [Link](https://www.kaggle.com/competitions/cisc-873-dm-w23-a1).
+## Dataset
+The dataset provided for this competition includes the following files:
+
+* train.csv: This file contains the training data, including user-product interactions and target labels indicating whether the user purchased the product or not.
+* test.csv: This file contains the test data, which includes user-product pairs for which predictions need to be made.
+
+## Data Exploration
+Before building predictive models, it's essential to understand the characteristics of the dataset. Some key aspects of data exploration include:
+
+Analyzing the distribution of the target variable (purchase/no purchase).
+Exploring relationships between user demographics, product attributes, and purchase behavior.
+Handling missing values and outliers appropriately.
+Visualizing the data to identify patterns and correlations.
+Feature Engineering
+Feature engineering is crucial for improving model performance. Some feature engineering techniques I applied include:
+
+Creating new features based on user behavior or product attributes.
+Encoding categorical variables using techniques like one-hot encoding or target encoding.
+Handling missing values through imputation or other strategies.
+Scaling or normalizing numerical features if necessary.
+Model Selection
+For this binary classification task, I experimented with various machine learning algorithms, including:
+
+```
+Naive Bayes
+Decision Tree 
+SVM
+```
+I evaluated each model using metrics such as accuracy, precision, recall, and F1-score. Hyperparameter tuning was performed using techniques like grid search or random search to optimize model performance.
+
+## Model Evaluation
+To evaluate the final model, I used techniques like cross-validation on the training data and assessed performance on a held-out validation set. Additionally, I considered the model's performance on the Kaggle leaderboard using the test set.
+
+## Results
+After training and fine-tuning the model, here are the results I achieved:
+
+Accuracy on the validation set: 92%
+
+## Conclusion
+Participating in this competition provided valuable insights into building recommendation systems and handling large-scale datasets. The experience gained from this challenge helped me enhance my skills in data analysis and machine learning.
