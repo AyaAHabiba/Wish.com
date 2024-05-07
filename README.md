@@ -7,6 +7,7 @@ The dataset provided for this competition includes the following files:
 
 * train.csv: This file contains the training data, including user-product interactions and target labels indicating whether the user purchased the product or not.
 * test.csv: This file contains the test data, which includes user-product pairs for which predictions need to be made.
+* product_attributes.csv: This file contains additional attributes/features of the products, which may be used for feature engineering.
 
 ## Data Exploration
 Before building predictive models, it's essential to understand the characteristics of the dataset. Some key aspects of data exploration include:
@@ -42,3 +43,6 @@ Accuracy on the validation set: 92%
 
 ## Conclusion
 Participating in this competition provided valuable insights into building recommendation systems and handling large-scale datasets. The experience gained from this challenge helped me enhance my skills in data analysis and machine learning.
+
+![image](https://github.com/AyaAHabiba/Wish.com/assets/100422522/2ef8466b-bf24-42e7-a382-f788571c7a1d)
+
